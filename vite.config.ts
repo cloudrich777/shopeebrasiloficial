@@ -13,7 +13,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  ssr: {
-    external: ['node:async_hooks']
-  }
+  build: {
+    rollupOptions: {
+      external: ['node:async_hooks'],
+    },
+  },
 })
