@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ProductPage from './routes'
+import './styles.css'
+
+// Import das rotas
+import ProductPage from './routes/index'
 import Checkout from './routes/checkout'
 import Pix from './routes/pix'
 import Sucesso from './routes/sucesso'
-import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
