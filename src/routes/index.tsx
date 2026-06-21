@@ -5,24 +5,26 @@ import {
   ThumbsUp
 } from "lucide-react";
 import { useState, useEffect } from "react";
-import drumImg from "@/assets/bateria1.jfif";
-import accImg from "@/assets/bateria2.jfif";
-import lifeImg from "@/assets/bateria3.jfif";
-import bat4Img from "@/assets/bateria4.jfif";
-import bat5Img from "@/assets/bateria5.jfif";
-import review1 from "@/assets/review1.jfif";
-import review2 from "@/assets/review2.jfif";
-import review3 from "@/assets/review3.jfif";
-import review4 from "@/assets/review4.jfif";
-import review5 from "@/assets/review5.jfif";
-import review6 from "@/assets/review6.jfif";
-import review7 from "@/assets/review7.jfif";
+import drumImg from "@/assets/7.jpg.jpeg";
+import accImg from "@/assets/box2.webp";
+import lifeImg from "@/assets/box3.webp";
+import bat4Img from "@/assets/box4.webp";
+import bat5Img from "@/assets/box5.webp";
+import review1 from "@/assets/reviewbox1.webp";
+import review2 from "@/assets/reviewbox2.webp";
+import review3 from "@/assets/reviewbox3.webp";
+import review4 from "@/assets/reviewbox4.webp";
+import review5 from "@/assets/reviewbox5.webp";
+import review6 from "@/assets/reviewbox6.webp";
+import review7 from "@/assets/reviewbox7.webp";
+import avatar from "@/assets/avatar.webp";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Bateria Eletrônica Musical 9 Pads 6 Drums - AB Shop" },
-      { name: "description", content: "Bateria Eletrônica Musical 9 Pads 6 Drums 5 Metal 2 Pedais e 2 Baquetas. Frete grátis com cupom." },
+      { title: "Box Para Banheiro de PVC 185x130cm Sanfonado Frontal BCF Preto" },
+      { name: "description", content: "Box Para Banheiro de PVC 185x130cm Sanfonado Frontal BCF Preto. Frete grátis com cupom." },
     ],
   }),
   component: ProductPage,
@@ -143,7 +145,7 @@ function ProductPage() {
         </div>
         <h1 className="mt-2 text-[15px] leading-snug">
           <span className="bg-[#ee4d2d] text-white text-xs px-1.5 py-0.5 rounded mr-1 align-middle">Indicado</span>
-          Bateria Eletrônica Musical 9 Pads 6 Drums 5 Metal 2 Pedais e 2 Baquetas
+          Box Para Banheiro de PVC 185x130cm Sanfonado Frontal BCF Preto
         </h1>
       </div>
 
@@ -153,7 +155,7 @@ function ProductPage() {
           <div className="flex items-center gap-2 text-sm">
             <Truck size={18} className="text-[#26aa99]" />
             <span className="text-[#26aa99] font-medium">Frete grátis</span>
-            <span className="line-through text-gray-400">R$29,94</span>
+            <span className="line-through text-gray-400">R$249,94</span>
             <span className="text-gray-700">R$0,00 com cupom</span>
           </div>
           <ChevronRight size={16} className="text-gray-400" />
@@ -168,7 +170,7 @@ function ProductPage() {
         <button className="w-full flex items-center justify-between px-4 py-3 bg-[#fff4f1]">
           <div className="flex items-center gap-2 text-sm text-[#ee4d2d] font-medium">
             <Trophy size={18} />
-            <span>No. 1 Mais Vendidos em Bateria Eletrônica Digital</span>
+            <span>No. 1 Mais Vendidos em Box de Banheiro</span>
           </div>
           <ChevronRight size={16} className="text-[#ee4d2d]"/>
         </button>
@@ -191,7 +193,7 @@ function ProductPage() {
             name: "deborabelss",
             date: "25-08-2025",
             stars: 5,
-            text: "Envio super rápido, no mesmo dia da compra e olha que foi num sábado! Quanto ao material ótimo, som ótimo! Meu filho adorou, já está aprendendo as primeiras batidas. Recomendo demais!",
+            text: "Simplesmente maravilhoso, compre 3 de uma vez e não me arrependo, 100% de ótima qualidade super forte e resistente. Um box pra vida toda, limpa fácil tudo de bom. Super recomendo 😍😍😍😍",
             images: [review1],
             useful: 902,
           },
@@ -199,7 +201,7 @@ function ProductPage() {
             name: "carlos.silva88",
             date: "12-10-2025",
             stars: 5,
-            text: "Produto muito bem embalado, chegou antes do prazo. A qualidade dos pads de silicone é surpreendente, responde muito bem ao toque. Os pedais também são firmes. Excelente custo-benefício!",
+            text: "Excelente preço, recomendo, material ótimo, fácil instalação, ficou melhor que o box de acrílico",
             images: [review2, review3],
             useful: 634,
           },
@@ -207,7 +209,7 @@ function ProductPage() {
             name: "mariana_t",
             date: "28-04-2026",
             stars: 5,
-            text: "Comprei para presentear meu sobrinho e ele ficou encantado! A bateria é leve, fácil de transportar e conecta facilmente no celular. O app ajuda bastante nos primeiros passos. Lindo presente!",
+            text: "Melhor investimento. Compramos mais parafusos colocamos 3 de cada lado fixados na parede pra durar mais. O nosso Box tem 1,24 esse de 1,30 deu pra ajustar legal, somente tirando 1 peça de encaixe transparente e cortamos as laterais com serra. Perfeito super recomendo.",
             images: [review4],
             useful: 521,
           },
@@ -215,7 +217,7 @@ function ProductPage() {
             name: "joao_batera",
             date: "08-03-2026",
             stars: 4,
-            text: "Muito boa para praticar em casa sem incomodar os vizinhos. O som é limpo e os timbres são variados. Só acho que o cabo poderia ser um pouco maior, mas nada que atrapalhe. Valeu a pena!",
+            text: "Muito bom vale muito apena entregou antes do prazo parabéns",
             images: [review5, review6, review7],
             useful: 418,
           },
@@ -251,9 +253,9 @@ function ProductPage() {
       {/* Store */}
       <div className="mt-2 bg-white px-4 py-4">
         <div className="flex items-center gap-3">
-          <div className="w-14 h-14 rounded-full bg-black flex items-center justify-center text-yellow-400 font-bold text-xs">AB</div>
+        <img src={avatar} alt="Avatar" className="w-14 h-14 rounded-full object-cover" />
           <div className="flex-1">
-            <div className="font-medium">ABSHOPCOM</div>
+            <div className="font-medium">MadeiraMadeira</div>
             <div className="text-xs text-green-600 flex items-center gap-1">
               <span className="w-2 h-2 rounded-full bg-green-500"/> Online
             </div>
@@ -269,25 +271,49 @@ function ProductPage() {
 
       {/* Description */}
       <div className="mt-2 bg-white px-4 py-4">
-        <h2 className="font-medium mb-2">Descrição</h2>
-        <p className="text-sm text-gray-800 leading-relaxed whitespace-pre-line">
-{`Bateira Eletrônica 6 Drums 5 Metal Silicone Portátil com Pedal e Baquetas
+  <h2 className="font-medium mb-2">Descrição</h2>
+  <p className="text-sm text-gray-800 leading-relaxed whitespace-pre-line">
+{`O Box Sanfonado BCF é produzido com lâminas translúcidas possibilitando a passagem de luz e valorizando seu banheiro. É a solução para você que busca mais conforto na hora do seu banho sem molhar todo o banheiro. Ele é produzido em plástico PVC de alto impacto e além de resistir a choques térmicos ele não estilhaça. Produto higiênico que permite a limpeza das lâminas sem necessidade de desmontar a estrutura. O Box sanfonado, ainda conta com um perfeito sistema de vedação que evita que a água se espalhe no banheiro. Todas estas qualidades são resultado do emprego de tecnologia avançada e matéria prima de alta qualidade, proporcionando durabilidade, beleza e segurança.
 
-Alto falante: Não (Sem alto-falante, você precisa conectá-lo com uma caixa de som ou fone de ouvido para aproveitar o som)
-1 par de baquetas
-
-Peso e medidas (aproximados)
-Medidas do produto: 48 x 30 cm (largura x comprimento)
-Comprimento do cabo fone: 1,2 m
-Medidas da embalagem: 14 x 33 x 50 cm
-Peso: 1,97 Kg
-
-CONTEM:
-01 - Bateira Eletrônica 6 Drums 5 Metal Silicone Portátil C Pedal
-
-Itens inclusos: 1 Bateria Eletrônica, 2 Baqueta, 2 Pedal, 1 Fonte de Alimentação, 1 Cabo Usb, 2 Cabo P2, 1 Manual (inglês)`}
-        </p>
-      </div>
+Peso (kg): 5.79
+Elétrica: Não
+Garantia: 12 Meses
+Altura (cm): 185
+Largura (cm): 130
+Espessura (cm): 8
+Possui Grade: Não
+Possui Vidro: Não
+Tipo de Porta: Sanfonada
+Modelo da Porta: Sanfonada
+Escala de Brilho: Acetinado
+Imune à Corrosão: Sim
+Lado de Abertura: Definido na instalação
+Acompanha Batente: Sim
+Origem do Produto: Nacional
+Ambiente Principal: Banheiro
+Largura do Batente: 8
+Resistência à Água: Sim
+Acompanha Fechadura: Sim
+Material do Batente: PVC
+Necessita Instalação: Não
+Acabamento do Puxador: Fosco
+Acompanha Olho Mágico: Não
+Resistência à Maresia: Sim
+Resistência à Umidade: Sim
+Abertura para Ventilação: Não
+Acompanha Manual de Instalação: Sim
+Acabamento (Construção e Acabamento): PVC
+Material Principal Construção e Acabamento: PVC
+Marca: BCF
+Cor: Preto
+Cor do Produto: Preto
+Itens Inclusos: 1 Porta e Manual de Instalação
+Cor Predominante: Preto
+Linha ou Coleção: MM857608
+Medida do Vão (A x L): 185cm x 130cm
+Tamanho do Produto: 185cm x 130cm`}
+  </p>
+</div>
 
       {/* Bottom bar */}
 <div className="fixed bottom-0 left-0 right-0 mx-auto max-w-[480px] bg-white border-t flex z-30">
@@ -318,11 +344,11 @@ Itens inclusos: 1 Bateria Eletrônica, 2 Baqueta, 2 Pedal, 1 Fonte de Alimentaç
                       <span className="text-[#ee4d2d] text-2xl font-bold leading-none">99,90</span>
                       <span className="text-[#ee4d2d] text-sm">no Pix</span>
                     </div>
-                    <div className="text-xs text-gray-500 mt-1">Ou R$159,90 com outros métodos de pagamento</div>
+                    <div className="text-xs text-gray-500 mt-1">Ou R$149,90 com outros métodos de pagamento</div>
                   </div>
                   <button onClick={() => setSheet(null)}><X size={20}/></button>
                 </div>
-                <div className="text-sm text-gray-600 mt-3">Estoque: 775</div>
+                <div className="text-sm text-gray-600 mt-3">Estoque: 11</div>
               </div>
             </div>
             <div className="flex items-center justify-between mt-6">
